@@ -1,9 +1,15 @@
 # encrypted_data_bag_solo
 
 ## Disclaimer
-Utiliting encrypted data bags is inherently insecure as you are shipping the encryption/decryption key
+Utilizing encrypted data bags is inherently insecure as you are shipping the encryption/decryption key
 in plain text alongside the cookbook policy. Your data_bags may be encrypted, but the key for decryption
 is accessible on the filesystem.
+
+## Clone
+
+```
+git clone https://github.com/jeremymv2/encrypted_data_bag_solo.git
+```
 
 ## Create a secret
 
