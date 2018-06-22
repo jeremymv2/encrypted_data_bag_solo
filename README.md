@@ -1,4 +1,4 @@
-# encrypted_data_bag_solo
+# Encrypted data_bag with Chef solo
 
 ## Disclaimer
 Utilizing encrypted data bags is inherently insecure as you are shipping the encryption/decryption key
